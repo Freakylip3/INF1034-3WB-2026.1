@@ -1,1 +1,1 @@
-print('Fear is the mind killer')
+print('Fear is the mind killer, I should not fear')
