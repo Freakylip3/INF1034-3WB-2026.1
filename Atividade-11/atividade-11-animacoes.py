@@ -9,7 +9,7 @@ background_color =(123, 108, 145)
 display.set_caption("Animations.pygame")
 curr_frame_n = 0
 anim_time = 0
-dino_sheet= image.load("./Atividade-11/Dinoi.png")
+dino_sheet= image.load("./Atividade-11./Dinoi.png")
 
 
 #var dino

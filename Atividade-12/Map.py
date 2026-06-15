@@ -10,20 +10,20 @@ fonte= font.SysFont("Times New Roman",30)
 sorry=fonte.render("Thank you Dino! But our princess is in another castle!", True, (255, 255, 255))
 tile_size = 60
 tile_size_joguinho =60
-tileset = image.load("atividade-12-Mapas.Pygame/TileSet.png")
+tileset = image.load("./Atividade-12/TileSet.png")
 tileset= transform.scale(tileset, (20 * tile_size_joguinho, 12 * tile_size_joguinho)) 
-placaP = image.load("atividade-12-Mapas.Pygame/7.png")
+placaP = image.load("Atividade-12/7.png")
 placaP = transform.scale(placaP, (tile_size_joguinho, tile_size_joguinho))
-fundo= image.load("atividade-12-Mapas.Pygame/2.png")
+fundo= image.load("Atividade-12/2.png")
 fundo= transform.scale(fundo, (3600, 720))
-fundo2=image.load("atividade-12-Mapas.Pygame/3.png")
+fundo2=image.load("Atividade-12/3.png")
 fundo2= transform.scale(fundo2, (3600, 720))
-castelo= image.load("atividade-12-Mapas.Pygame/castelo.png")
+castelo= image.load("Atividade-12/castelo.png")
 castelo= transform.scale(castelo, (600, 400))
 encostouCastelo= False
 
 #dino
-dino_sheet= image.load("atividade-11-Animações.Pygame/Dinoi.png")
+dino_sheet= image.load("./Atividade-12/Dinoi.png")
 dino_sheet= transform.scale(dino_sheet, (14*60, 60))
 dinox ,dinoy= 000, 300
 speed_dinox= 0
@@ -40,7 +40,7 @@ ALTURA_FRAME = 100
 dt = clock.get_time()
 olhando_para_direita = True
 
-arq = open("./atividade-12-Mapas.Pygame/Map.txt", "r")
+arq = open("./Atividade-12/Map.txt", "r")
 mapa_joguinho = []
 for linha in arq:
     mapa_joguinho.append(linha.rstrip(".\n "))
