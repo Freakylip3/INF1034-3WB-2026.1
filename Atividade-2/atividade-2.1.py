@@ -2,7 +2,7 @@ from turtle import *
 
 
 t = Turtle()
-
+t.speed(8)
 #plano cartesiano
 
 t.pu()
