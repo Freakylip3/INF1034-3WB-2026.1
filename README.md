@@ -32,7 +32,7 @@ Repositório da disciplina INF1034 que cursei na Puc-Rio em 2026.1
 
 
 ## Atividade-7:
-  ### Usando Pygame, fiz diversos mini-games:
+  #### Usando Pygame, fiz diversos mini-games:
     Forca: jogo da forca com o tema de star wars.
     Pedra, papel e tesoura: classico jogo pedra papel e teoura, agora consegue jogar com um player.
     Calculadora: fiz uma calculadora, que faz somas, subtrações, multiplicações e divisões.
@@ -43,8 +43,8 @@ Repositório da disciplina INF1034 que cursei na Puc-Rio em 2026.1
 
 ## Atividae-9:
   #### Volta ao turtle para uma last-dance, fiz fractais usando a interface do turtle, nesse folder tem 2 arquivos:
-    turle-fractais.py: arquivo com o código padrão
-    turtle-fractais-tkinter.py: arquivo que além do codigo padrão, utilizei a biblioteca do Tkinter, criando um slider para modificar um parâmetro da fractal.
+   turle-fractais.py: arquivo com o código padrão
+   turtle-fractais-tkinter.py: arquivo que além do codigo padrão, utilizei a biblioteca do Tkinter, criando um slider para modificar um parâmetro da fractal.
 
   
 ## Atividade-10:
