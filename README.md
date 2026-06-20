@@ -2,14 +2,14 @@
 Repositório da disciplina INF1034 que cursei na Puc-Rio em 2026.1
 
 ## Atividade-1:
-  ### Utilizando o Rodo-codo, fiz todas as atividades e depois transcrevi os movimentos em formato de pseudo-Código para um PDF
+   Utilizando o Rodo-codo, fiz todas as atividades e depois transcrevi os movimentos em formato de pseudo-Código para um PDF
 
   
 ## Atividade-2:
   ### Atividade2.1:
-   #### Introdução ao turtle, fiz formas geométricas usando turtle
+   Introdução ao turtle, fiz formas geométricas usando turtle
   ### Atividade2.2:
-   #### Fiz bandeiras de países utilizando o turtle
+   Fiz bandeiras de países utilizando o turtle
 
 
 ## Atividade-3:
@@ -34,29 +34,29 @@ Repositório da disciplina INF1034 que cursei na Puc-Rio em 2026.1
 ## Atividade-7:
   ### Usando Pygame, fiz diversos mini-games:
    #### Forca: 
-   jogo da forca com o tema de star wars.
+   Jogo da forca com o tema de star wars.
    #### Pedra, papel e tesoura: 
-   classico jogo pedra papel e teoura, agora consegue jogar com um player.
+   Classico jogo pedra papel e teoura, agora consegue jogar com um player.
    #### Calculadora: 
-   fiz uma calculadora, que faz somas, subtrações, multiplicações e divisões.
+   Fiz uma calculadora, que faz somas, subtrações, multiplicações e divisões.
 
 
 ## Atividade-8:
-   Fiz uma interface para os mini-games criados na Atividade-7, mas para acessá-los precisa passar pelos pré-requisitos, um email finalizado em "@puc.com", e uma senha que possua: 3 letras maiúsculas, 3 minusculas, 3 numeros, e o caractere especial "@", caso "logue" no sistema criado, conseguirá ver como sua senha ficaria se fosse criptografada na cifra de César, além de ter acesso aos mini-games.
+   Fiz uma interface para os mini-games criados na Atividade-7, mas para acessá-los precisa passar pelos pré-requisitos, um email finalizado em "@puc.com", e uma senha que possua: 3 letras maiúsculas, 3 minusculas, 3 numeros, e o caractere especial "@". Caso "logue" no sistema criado, conseguirá ver como sua senha ficaria se fosse criptografada na cifra de César, além de ter acesso aos mini-games.
 
 ## Atividae-9:
   ### Volta ao turtle para uma last-dance, fiz fractais usando a interface do turtle, nesse folder tem 2 arquivos:
    #### turle-fractais.py:
-   arquivo com o código padrão
+   Arquivo com o código padrão
    #### turtle-fractais-tkinter.py:
-   arquivo que além do codigo padrão, utilizei a biblioteca do Tkinter, criando um slider para modificar um parâmetro da fractal.
+   Arquivo que além do codigo padrão, utilizei a biblioteca do Tkinter, criando um slider para modificar um parâmetro da fractal.
 
   
 ## Atividade-10:
   ### Voltando ao Pygame, fiz 3 histogramas:
-   histograma 1: pega números aleatórios de uma lista.
-   histograma 2: pega números aleatórios de uma lista e faz algumas modificaçoes.
-   histograma 3: feito com inputs direto no pygame, digite os números você mesmo e faça o seu proprio histograma.
+   #### Histograma 1: pega números aleatórios de uma lista.
+   #### Histograma 2: pega números aleatórios de uma lista e faz algumas modificaçoes.
+   #### Histograma 3: feito com inputs direto no pygame, digite os números você mesmo e faça o seu proprio histograma.
    Use as setas do teclado para ver os 3 histogramas feitos
 
 
