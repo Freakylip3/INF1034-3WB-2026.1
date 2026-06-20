@@ -24,7 +24,7 @@ Repositório da disciplina INF1034 que cursei na Puc-Rio em 2026.1
 
 
 ## Atividade-5:
-   Introdução ao Pygame, fiz uma paisagem personalizada.
+   Introdução ao Pygame, fiz uma paisagem personalizada, com musica de fundo e movimento automático.
 
 
 ## Atividade-6:
