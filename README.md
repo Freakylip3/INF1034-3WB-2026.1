@@ -33,9 +33,12 @@ Repositório da disciplina INF1034 que cursei na Puc-Rio em 2026.1
 
 ## Atividade-7:
   ### Usando Pygame, fiz diversos mini-games:
-   Forca: jogo da forca com o tema de star wars.
-   Pedra, papel e tesoura: classico jogo pedra papel e teoura, agora consegue jogar com um player.
-   Calculadora: fiz uma calculadora, que faz somas, subtrações, multiplicações e divisões.
+   #### Forca: 
+   jogo da forca com o tema de star wars.
+   #### Pedra, papel e tesoura: 
+   classico jogo pedra papel e teoura, agora consegue jogar com um player.
+   #### Calculadora: 
+   fiz uma calculadora, que faz somas, subtrações, multiplicações e divisões.
 
 
 ## Atividade-8:
