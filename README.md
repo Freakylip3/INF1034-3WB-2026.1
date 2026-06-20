@@ -14,9 +14,9 @@ Repositório da disciplina INF1034 que cursei na Puc-Rio em 2026.1
 
 ## Atividade-3:
   ### Atividade3.1:
-    Modifiquei o código da atividade 2.1, agora usando funções, o código ficou mais limpo
+   Modifiquei o código da atividade 2.1, agora usando funções, o código ficou mais limpo
   ### Atividade3.2:
-    Modifiquei o código da atividade 2.2, bandeiras foram feitas utilizando funções, o código ficou mais limpo.
+   Modifiquei o código da atividade 2.2, bandeiras foram feitas utilizando funções, o código ficou mais limpo.
 
 
 ## Atividade-4:
