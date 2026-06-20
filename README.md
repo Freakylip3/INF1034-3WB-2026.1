@@ -43,8 +43,10 @@ Repositório da disciplina INF1034 que cursei na Puc-Rio em 2026.1
 
 ## Atividae-9:
   ### Volta ao turtle para uma last-dance, fiz fractais usando a interface do turtle, nesse folder tem 2 arquivos:
-   turle-fractais.py: arquivo com o código padrão
-   turtle-fractais-tkinter.py: arquivo que além do codigo padrão, utilizei a biblioteca do Tkinter, criando um slider para modificar um parâmetro da fractal.
+   #### turle-fractais.py:
+   arquivo com o código padrão
+   #### turtle-fractais-tkinter.py:
+   arquivo que além do codigo padrão, utilizei a biblioteca do Tkinter, criando um slider para modificar um parâmetro da fractal.
 
   
 ## Atividade-10:
