@@ -31,7 +31,7 @@ def calculadora(n1, n2, op):
         return "erro"
  
  
-calc = transform.scale(image.load("./Atividade-7/calculating-machine.png"), (420, 600))
+calc = transform.scale(image.load("./Atividade-7/assets/calculating-machine.png"), (420, 600))
  
  
 while running:

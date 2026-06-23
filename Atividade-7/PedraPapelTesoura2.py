@@ -16,11 +16,6 @@ clock = time.Clock()
 fonte= font.SysFont("comicsansms", 30)
 texto_muda= "Faça sua jogada!"
 
-#img
-papel_img= image.load("./Atividade-7/hand-paper.png")
-pedra_img= image.load("./Atividade-7/hand.png")
-tesoura_img= image.load("./Atividade-7/scissors.png")
-reset_img= image.load("./Atividade-7/reset.png")
 
 
 def jogada():
@@ -46,10 +41,10 @@ while running:
         
         window.fill(background_color)
         
-        papel_img= image.load("./Atividade-7/hand-paper.png")
-        pedra_img= image.load("./Atividade-7/hand.png")
-        tesoura_img= image.load("./Atividade-7/scissors.png")
-        reset_img= image.load("./Atividade-7/reset.png")
+        papel_img= image.load("./Atividade-7/assets/hand-paper.png")
+        pedra_img= image.load("./Atividade-7/assets/hand.png")
+        tesoura_img= image.load("./Atividade-7/assets/scissors.png")
+        reset_img= image.load("./Atividade-7/assets/reset.png")
 
 
         draw.rect(window, ((136, 148, 153)), (100, 370, 175, 225)) 

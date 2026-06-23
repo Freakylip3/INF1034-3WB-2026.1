@@ -21,12 +21,12 @@ fonte= font.SysFont('arial', 25)
 
 
 
-c3po_cabeca_img  = transform.scale(image.load("./Atividade-7/c3po-cabeça.png"),(70, 70))
-c3po_tronco1_img = transform.scale(image.load("./Atividade-7/c3po-tronco1.PNG"),(115, 70))
-c3po_tronco2_img = transform.scale(image.load("./Atividade-7/c3po-tronco2.PNG"),(113, 70))
-c3po_tronco3_img = transform.scale(image.load("./Atividade-7/c3po-tronco3.PNG"),(113, 70))
-c3po_pernas1_img = transform.scale(image.load("./Atividade-7/c3po-pernas-1.PNG"),(113, 50))
-c3po_pernas2_img = transform.scale(image.load("./Atividade-7/c3po-pernas-2.PNG"),(113, 50))
+c3po_cabeca_img  = transform.scale(image.load("./Atividade-7/assets/c3po-cabeça.png"),(70, 70))
+c3po_tronco1_img = transform.scale(image.load("./Atividade-7/assets/c3po-tronco1.PNG"),(115, 70))
+c3po_tronco2_img = transform.scale(image.load("./Atividade-7/assets/c3po-tronco2.PNG"),(113, 70))
+c3po_tronco3_img = transform.scale(image.load("./Atividade-7/assets/c3po-tronco3.PNG"),(113, 70))
+c3po_pernas1_img = transform.scale(image.load("./Atividade-7/assets/c3po-pernas-1.PNG"),(113, 50))
+c3po_pernas2_img = transform.scale(image.load("./Atividade-7/assets/c3po-pernas-2.PNG"),(113, 50))
 
 def forca(erros, palavra_forca, letras_U):
 
