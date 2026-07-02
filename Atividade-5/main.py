@@ -7,17 +7,17 @@ window = display.set_mode((1280, 720))
 
 window.fill((160, 103, 97))
 
-Vader_img = image.load('./Atividade-5./Darth-Vader-PNG.png')
+Vader_img = image.load('./Atividade-5./assets/Darth-Vader-PNG.png')
 Vader_img = transform.scale(Vader_img, (300, 300))
-tie_img = image.load('./Atividade-5./Tie.png')
+tie_img = image.load('./Atividade-5./assets/Tie.png')
 tie_img = transform.scale(tie_img,(85, 85))
 x= 100
 
 #starWars font
-StarF= font.Font("./Atividade-5./Starjhol.ttf", 30)
+StarF= font.Font("./Atividade-5./assets/Starjhol.ttf", 30)
 Y = 50 + 0.067
 
-mixer.music.load('./Atividade-5./imperial_march.mp3')
+mixer.music.load('./Atividade-5./assets/imperial_march.mp3')
 mixer.music.play(-1)
 while True:
     for ev in event.get():

@@ -20,20 +20,20 @@ window.fill((160, 103, 97))
 
 
 #fonte png e musica
-Vader_img = image.load('./Atividade-6./Darth-Vader-PNG.png')
+Vader_img = image.load('./Atividade-6/assets/Darth-Vader-PNG.png')
 Vader_img = transform.scale(Vader_img, (300, 300))
-tie_img = image.load('./Atividade-6./Tie.png')
+tie_img = image.load('./Atividade-6/assets/Tie.png')
 tie_img = transform.scale(tie_img,(85, 85))
 
-StarF= font.Font("./Atividade-6./Starjhol.ttf", 30)
+StarF= font.Font("./Atividade-6/assets/Starjhol.ttf", 30)
 Y = 50 + 0.067
 
 #som
-mixer.music.load('./Atividade-6./imperial_march.mp3')
+mixer.music.load('./Atividade-6/assets/imperial_march.mp3')
 mixer.music.play(-1)
-r2d2scream_sfx= mixer.Sound('./Atividade-6./r2d2_scream_converted.mp3')
-VaderBreath_sfx= mixer.Sound('./Atividade-6./darth-vader.mp3')
-TieRoar_sfx= mixer.Sound('./Atividade-6./tie-fighter-roar.mp3')
+r2d2scream_sfx= mixer.Sound('./Atividade-6/assets/r2d2_scream_converted.mp3')
+VaderBreath_sfx= mixer.Sound('./Atividade-6/assets/darth-vader.mp3')
+TieRoar_sfx= mixer.Sound('./Atividade-6/assets/tie-fighter-roar.mp3')
 
 
 

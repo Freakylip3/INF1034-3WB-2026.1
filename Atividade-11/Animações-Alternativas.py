@@ -17,8 +17,8 @@ curr_frame_cav = 0
 anim_time_s = 0
 vel_cav_x = 4
 cav_direita = True
-cav_walk= image.load("./Atividade-11/RUN.png") 
-necrom= image.load("./Atividade-11/necromancer.png") 
+cav_walk= image.load("./Atividade-11/assets/RUN.png") 
+necrom= image.load("./Atividade-11/assets/necromancer.png") 
 run_animation = True
 anim_time_necro = 0
 

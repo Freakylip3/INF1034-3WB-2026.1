@@ -15,10 +15,10 @@ telaMomento= "bloqueio"
 texto_email="" 
 texto_senha=""
 running = True
-papel_img= image.load("./Atividade-8/hand-paper.png")
-pedra_img= image.load("./Atividade-8/hand.png")
-tesoura_img= image.load("./Atividade-8/scissors.png")
-reset_img= image.load("./Atividade-8/reset.png")
+papel_img= image.load("./Atividade-8/assets/hand-paper.png")
+pedra_img= image.load("./Atividade-8/assets/hand.png")
+tesoura_img= image.load("./Atividade-8/assets/scissors.png")
+reset_img= image.load("./Atividade-8/assets/reset.png")
 escolhas=["pedra", "papel", "tesoura"]
 pontos= 0
 sua_escolha=""
@@ -28,12 +28,12 @@ window = display.set_mode((1280, 720))
 background_colorppt =(19, 108, 145)
 clock = time.Clock()
 texto_muda= "Faça sua jogada!"
-c3po_cabeca_img  = transform.scale(image.load("./Atividade-8/c3po-cabeça.png"),(70, 70))
-c3po_tronco1_img = transform.scale(image.load("./Atividade-8/c3po-tronco1.PNG"),(115, 70))
-c3po_tronco2_img = transform.scale(image.load("./Atividade-8/c3po-tronco2.PNG"),(113, 70))
-c3po_tronco3_img = transform.scale(image.load("./Atividade-8/c3po-tronco3.PNG"),(113, 70))
-c3po_pernas1_img = transform.scale(image.load("./Atividade-8/c3po-pernas-1.PNG"),(113, 50))
-c3po_pernas2_img = transform.scale(image.load("./Atividade-8/c3po-pernas-2.PNG"),(113, 50))
+c3po_cabeca_img  = transform.scale(image.load("./Atividade-8/assets/c3po-cabeça.png"),(70, 70))
+c3po_tronco1_img = transform.scale(image.load("./Atividade-8/assets/c3po-tronco1.PNG"),(115, 70))
+c3po_tronco2_img = transform.scale(image.load("./Atividade-8/assets/c3po-tronco2.PNG"),(113, 70))
+c3po_tronco3_img = transform.scale(image.load("./Atividade-8/assets/c3po-tronco3.PNG"),(113, 70))
+c3po_pernas1_img = transform.scale(image.load("./Atividade-8/assets/c3po-pernas-1.PNG"),(113, 50))
+c3po_pernas2_img = transform.scale(image.load("./Atividade-8/assets/c3po-pernas-2.PNG"),(113, 50))
 lista_St= ["jedi", "vader", "luke", "yoda", "skywalker", "anakin", "solo", "sith", "leia", "padme", "chewbacca"]
 palavra_escolhida= random.choice(lista_St)
 palavra_forca = '_' * len(palavra_escolhida)
@@ -43,11 +43,11 @@ window = display.set_mode((1280, 720))
 background_colorst =(1, 1, 38)
 chute= ""
 running= True
-StarF= font.Font("./Atividade-8/Starjhol.ttf", 30)
+StarF= font.Font("./Atividade-8/assets/Starjhol.ttf", 30)
 clock= time.Clock()
-Vader_img = image.load('./Atividade-8/Darth-Vader-PNG.png')
+Vader_img = image.load('./Atividade-8/assets/Darth-Vader-PNG.png')
 Vader_img = transform.scale(Vader_img, (300, 300))
-tie_img = image.load('./Atividade-8/Tie.png')
+tie_img = image.load('./Atividade-8/assets/Tie.png')
 tie_img = transform.scale(tie_img,(85, 85))
 x= 100
         
@@ -241,7 +241,6 @@ while running:
         import sys 
 
 
-
         #lista e var
         
 
@@ -263,10 +262,7 @@ while running:
                 return "jogador venceu!"
             else:
                 return "jogador perdeu :["
-            
-
-
-                
+                           
         window.fill(background_colorppt)
         
 
@@ -313,9 +309,6 @@ while running:
                     pontos= 0
                     texto_muda= "Faça sua jogada"
 
-
-        
-
         if escolha:
             sua_escolha = escolha
             inimigo_escolha= random.choice(escolhas)
@@ -329,8 +322,6 @@ while running:
             draw.line(window, ((151, 175, 194)), (130, 800), (200, 300), 3)
             draw.line(window, ((151, 175, 194)), (200, 300), (300, 300), 3)
             draw.line(window, ((151, 175, 194)), (300, 300), (300, 350), 3)
-            
-
 
             if erros_f >= 1:  
                 window.blit(c3po_cabeca_img, (262, 340))
@@ -359,12 +350,6 @@ while running:
             window.blit(letras_usadas, (600, 600))
             palavra_acertando = fonte.render(usadas, True, (204, 157, 2))
             window.blit(palavra_acertando, (450, 400))
-
-                    
-        
-        
-    
-
         
         window.fill(background_colorst)
         forca(erros_f, palavra_forca, letras_usadas)
@@ -434,12 +419,6 @@ while running:
         draw.polygon(window, (207, 180, 205), ((775, 315), (800, 295), (830, 315)))
         draw.line(window, ((23, 76, 162)), (730,180), (730,300), 3 )
         draw.line(window, ((23, 76, 162)), (870,180), (870,300), 3 )
-        
-        
-
-        
-
-
 
         #imagem
 
@@ -452,19 +431,6 @@ while running:
         x= x+ 0.1
         if x>1200:
             x=100
-
-    
-
-
-
-            
-        
-
-                    
-
-
-
-
 
     display.flip()
     clock.tick(60)
