@@ -4,7 +4,6 @@ from time import sleep
 import tkinter as tk
 
 root = tk.Tk()
-root.title= "SLIDER"
 slider = tk.Scale(root, from_=10, to=180, orient="horizontal", label="Ajustar Parâmetro")
 slider.set(30)
 slider.pack(padx=20, pady=10, fill="x")
@@ -13,7 +12,7 @@ tkinter = tk
 
 t.speed(0)
 colormode(255)
-t.clear
+t.clear()
 
 
 def randomColor():

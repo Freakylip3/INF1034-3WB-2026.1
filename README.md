@@ -71,4 +71,4 @@ Repositório da disciplina INF1034 que cursei na Puc-Rio em 2026.1
 
 
 ## Atividade-13:
-  Jogo final
+  A atividade era fazer um jogo usando pygame. Criei um rpg de turnos junto de meu grupo. O jogo já está pronto, mas seguimos polindo o código e adicionando mais conteúdos. Em breve ele estará disponível de graça no Itch.io!

@@ -4,7 +4,9 @@ import random
 
 init()
 nums = [    100, 120, 130, 120, 150,  100, 160, 200, 190, 110, 115, 125, 135, 170, 130]
-lista1 = [random.randint(100, 200) for _ in range(50)]
+lista1 = []
+for i in range(50):
+    lista1.append(random.randint(100, 200))
 num_cat1 = 5
 lista2_base = [100, 120, 130, 120, 150, 100, 160, 200, 190, 110, 115, 125, 135, 170, 130]
 lista2 = [random.choice(lista2_base) + random.randint(-15, 15) for _ in range(len(lista2_base))]
