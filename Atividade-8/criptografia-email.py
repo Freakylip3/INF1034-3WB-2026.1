@@ -1,20 +1,5 @@
-from pygame import*
-
-init()
-
-#var
-background_color =(189, 0, 0)
-window = display.set_mode((1280, 720))
-running= True   
-clock = time.Clock()
-fonte= font.SysFont('arial', 25)
-fonteT= font.SysFont('arial', 50, bold=True)
-#fonte= font.SysFont("Courier New", 30)
-
-
 def valida_email(email):
-    return email[-8:] == "@puc.com"
-        
+    return email[-8:] == "@puc.com"        
     
 
 def possuiMaiuscula(palavra):
@@ -36,16 +21,12 @@ def possuiNumero(palavra):
     return False
     
 
-
-
 def valida_senha(senha):
     check_tamanho= len(senha) >=8
     check_maiuscula= possuiMaiuscula(senha)
     check_minuscula= possuiMinuscula(senha)
     check_numero= possuiNumero(senha)
     return check_tamanho and check_maiuscula and check_minuscula and check_numero
-
-
 
 def criptografa_senha(senha):
     senha_cripto= ""
@@ -83,26 +64,3 @@ def criptografa_senha(senha):
 print(criptografa_senha("FreakyLip3"))
 
 
-while running:     
-    window.fill(background_color)
-    for ev in event.get():
-        if ev.type == QUIT:
-            running = False
-        if ev .type == KEYDOWN:
-            if K_a <= ev.key <= K_z:
-                letra = key.name(ev.key).lower()
-    draw.rect(window, ((214, 214, 214)), (35, 10, 1210, 700))
-    draw.rect(window, ((147, 149, 150)), (200, 130, 900, 80 )) #email
-    draw.rect(window, ((82, 82, 82)), (200, 400, 900, 80 )) #senha
-    
-    caixa_email= Rect(210, 130, 900, 80 )
-    caixa_senha= Rect(210, 400, 900, 80 )
-
-    text_email= fonte.render.email, True, 255, 255, 255
-    text_senha= fonte.render.email, True, 255, 255, 255
-
-    window.blit(text_email, (caixa_email, 255, 255, 255))
-    window.blit(text_senha, (caixa_senha, 255, 255, 255))
-
-
-    display.flip()

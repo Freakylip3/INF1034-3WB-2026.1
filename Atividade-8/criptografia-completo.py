@@ -245,10 +245,10 @@ while running:
         
 
         #img
-        papel_img= image.load("./Atividade-8/hand-paper.png")
-        pedra_img= image.load("./Atividade-8/hand.png")
-        tesoura_img= image.load("./Atividade-8/scissors.png")
-        reset_img= image.load("./Atividade-8/reset.png")
+        papel_img= image.load("./Atividade-8/assets/hand-paper.png")
+        pedra_img= image.load("./Atividade-8/assets/hand.png")
+        tesoura_img= image.load("./Atividade-8/assets/scissors.png")
+        reset_img= image.load("./Atividade-8/assets/reset.png")
 
 
         def jogada():
@@ -366,16 +366,9 @@ while running:
         from pygame import *
         import sys
 
-
-
         window.fill((160, 103, 97))
 
-        
         Y = 50 + 0.067
-
-        mixer.music.load('imperial_march.mp3')
-        mixer.music.play(-1)
-        
     
         #desenhar apartir daqui
         window.fill((160, 103, 97))
